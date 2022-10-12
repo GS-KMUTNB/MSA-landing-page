@@ -1,12 +1,8 @@
-# VTCA-WebAppLanding
-
-### **Vocalist Thai Classical Web APP Landing**
-
-> This is Vocalist Thai Classical web app landing.
+# MSA-Landing-Page
 
 <br>
 
-<img src="https://cdn.discordapp.com/attachments/883246961615056919/934050897594548245/unknown.png"  width="400" height="auto"/>
+<img src="https://media.discordapp.net/attachments/1002459006222213120/1029694374612848641/unknown.png?width=1359&height=670"  width="500" height="auto"/>
 
 <br>
 
@@ -17,19 +13,10 @@
 ### **Hosting With Firebase** :
 
 ```
-https://vtca-app.web.app/
+https://msa-application.web.app/
 ```
 
 <br>
-
-### **Updates** :
-
-```
-- Changed card information
-- Fixed some Responsive issue
-- Added new version of VTCA .apk
-- Added new installation tips card
-```
 
 ---
 
