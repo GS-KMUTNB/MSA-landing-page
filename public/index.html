@@ -3,17 +3,17 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>KEETA</title>
+        <title>MSA</title>
         <link rel="stylesheet" href="style.css" />
-        <link rel="shortcut icon" type="image/png" href="src/1.png"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/png" href="./src/1.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
         <script src="script.js" defer></script>
     </head>
     <body>
       <div class="main">
         <header>
-            <img class="logo" src="src/LOGO.png">
+            <img class="logo" src="./src/LOGO.png">
             <div class="logo-text">
             <!-- <h1>KEETA </h1></div> -->
         </header>
@@ -21,13 +21,17 @@
             <!-- <div class="main"> -->
                     <div class="main-data" id="grad1">
                         <div class="main-texts">
-                            <p class="head-maintext">คีตา KEETA Application</p>
+                            <p class="head-maintext">MSA Application</p>
                             <p class="subhead-maintext">-------------------------------------</p>
-                            <p class="subhead-maintext">แอพพลิเคชั่น คีตศิลป์ไทย</p>
-                            <p class="sub-maintext" style="margin-top: 10px;">แอพพลิเคชั่น เรียนรู้หลักการขับร้องเพลงไทย ประวัติ เนื้อเพลง และอีกมากมายของคีตศิลป์ไทย ด้วยการนำเทคโนโลยีมาใช้ร่วมกับการเรียน เพื่อให้สามารถเรียนได้อย่างมีประสิทธิภาพมากขึ้น ทั้งนอกและในห้องเรียน สามารถดาวน์โหลดมาเรียนรู้ได้แล้วตอนนี้</p>
+                            <p class="subhead-maintext">แอพพลิเคชันคัดกรองภาวะทุพโภชนาการ </p>
+                            <p class="sub-maintext" style="margin-top: 10px; text-indent: 2.5em; text-align: justify;">เป็นการกรอกแบบประเมินคนไข้ที่มีความเสี่ยงต่อการเป็นภาวะขาดทุพโภชนาการและโรคต่าง ๆ เพื่อวิเคราะห์ว่ามีความเสี่ยงมากน้อยเพียงใด ถ้าวิเคราะห์ผลลัพธ์ที่ได้คือมีความเสี่ยงมาก ก็เข้าสู่แบบฟอร์มถัดไป แบบประเมินคนไข้ว่าช่วงก่อน  หลังผ่าตัดร่างกายต้องการสารอาหารอะไรบ้าง ในปริมาณเท่าไร แอปพลิเคชั่นนี้เพื่อเป็นการลดขั้นตอนต่าง ๆ ในการวิเคราะห์อีกทั้งเพื่ออำนวยความสะดวกให้คนไข้ และบุคคลากรทางการแพทย์ สามารถเรียนรู้ได้บนเว็บไซต์ของบริษัท ไทยโอสึกะได้แล้วตอนนี้</p>
                           </div>
                             <div class="buttonbox-main">
-                                <button type="submit" onclick="window.open('src/keeta.apk')" class="btn"><i class="fa fa-download"></i> คีตา KEETA (เฉพาะ Android เท่านั้น)</button>
+                                <button type="submit" onclick="window.open('./src/app-release.apk')" class="btn"><i class="fa-brands fa-android"></i> MSA Application for Android (beta)</button>
+                        </div>
+                              <div class="buttonbox-main">
+                                <button type="submit" onclick="" class="btn-ios"><i class="fa-brands fa-apple"></i></i> MSA Application for IOS (beta)</button> 
+                                <!-- "window.open('./src/app-release.apk')" -->
                         </div>
                     <!-- </div> -->
             </div>
@@ -38,33 +42,34 @@
             </div> -->
             <div class="info-data">
             <div class="feature">
-            <h1 class="feature-h1"> ภายในแอพพลิเคชั่น | KEETA </h1>
+            <h1 class="feature-h1"> ภายในแอพพลิเคชั่น | MSA </h1>
             <div class="feat-right">
             <div class="box-container">
-                <div class="box"> 
-                    <div class="feat-icon">
-                    <i class='bx bxs-music bx-flip-horizontal bx-tada bx-md'></i></div>
-                    <h3 class="feature-h3">เปิดฟังได้ทุกที่ทุกเวลา</h3>
-                    <p class="box-text">คุณสามารถฟังการขับร้องเพลงไทยจากแอพพลิเคชั่นได้เลย</p>
-                </div>
                 <div class="box">  
                     <div class="feat-icon">
-                    <i class='bx bx-list-check bx-tada bx-md'></i></div> 
-                    <h3 class="feature-h3">ความถูกต้องของเนื้อหา</h3>
-                    <p class="box-text">เนื้อหาของเราได้รับการตรวจสอบอย่างถูกต้อง เน้นข้อมูลจริงๆ ในปัจุบัน</p>
+                    <i class='bx bx-id-card bx-tada bx-md'></i></div> 
+                    <h3 class="feature-h3">ไม่มีการเก็บข้อมูลการใช้งาน</h3>
+                    <p class="box-text">ไม่มีการสมัครสมาชิก ไม่ต้องเข้าสู่ระบบการใช้งาน</p>
                 </div>
-                <div class="box">     
+                <div class="box"> 
                     <div class="feat-icon">
-                    <i class='bx bxs-notepad bx-tada bx-md'></i></div>
-                    <h3 class="feature-h3">ระบบฝึกหัดการขับร้อง</h3>
-                    <p class="box-text">สามารถ เปิด - ปิดเสียง ไม่ว่าจะเป็น เสียงร้อง, ฉิ่ง และ การรับ - ส่งร้อง และ เสียงต่างๆ มากมายภายในแอพลิเคชั่นให้ ได้ทดสอบฝึกขับร้อง</p>
+                    <i class='bx bx-body bx-flip-horizontal bx-tada bx-md'></i></div>
+                    <h3 class="feature-h3">ระบบคำนวณดัชนีมวลกาย</h3>
+                    <p class="box-text">ทีสามารถคำนณดัชนีมวลกายได้ทั้งชายและหญิง</p>
                 </div>
-                <div class="box">     
+                  <div class="box">     
                     <div class="feat-icon">
-                    <i class='bx bxs-microphone-alt bx-tada bx-md'></i></div>
-                    <h3 class="feature-h3">ระบบร้องคาราโอเกะ</h3>
-                    <p class="box-text">คุณสามารถฟังเพลงไทยแล้วลองร้องด้วยตัวเอง หรือจะร้องร่วมกันก็ยังได้</p>
+                    <i class='bx bxs-bar-chart-alt-2 bx-tada bx-md'></i></div>
+                    <h3 class="feature-h3">ระบบแสดงผลเป็นกราฟ</h3>
+                    <p class="box-text">สามารถแสดงผลลัพธ์การกรอกข้อมูลที่ต้องการพลังงานเพิ่มในแตละวัน ออกมาเป็นกราฟได้</p>
                 </div>
+                <div class="box"> 
+                    <div class="feat-icon">
+                    <i class='bx bx-save bx-flip-horizontal bx-tada bx-md'></i></div>
+                    <h3 class="feature-h3">ระบบพิมพ์และดาวน์โหลด</h3>
+                    <p class="box-text">สามารถพิมพ์และดาวน์โหลดผลการประเมินเก็บไว้ได้</p>
+                </div>
+
             </div>
             </div>
             </div>
@@ -89,14 +94,9 @@
             <tbody>
               <tr>
                 <th scope="row">ตัวหลัก</th>
-                <td class="tb-center">07 - 05 - 2022</td>
-                <td class="tb-center"><button class="btn-5"  onclick="window.open('src/keeta.apk')">download</button></td>
+                <td class="tb-center">15 - 10 - 2022</td>
+                <td class="tb-center"><button class="btn-5"  onclick="window.open('./src/app-release.apk')">download</button></td>
               </tr>
-              <tr>
-                <th scope="row">ตัวทดลอง</th>
-                <td class="tb-center">03 - 05 - 2022</td>
-                <td class="tb-center"><button class="btn-5-dis" disabled onclick="window.open('src/app-release.apk')">download</button></td>
-              </tr> 
             </tbody>
             </div>
           </table>
@@ -104,7 +104,7 @@
         
         <footer>
             <div class="footer-bottom">
-                <div class="footer-site-info">COPYRIGHT © TWEED | 2022</div>
+                <div class="footer-site-info">COPYRIGHT © GS COMPANY | 2022</div>
             </div>
         </footer>
     </body>

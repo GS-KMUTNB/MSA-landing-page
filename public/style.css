@@ -53,7 +53,7 @@ header {
 
 .logo-text h1 {
   font-family: "Prompt", sans-serif;
-  color: #fe8d6f;
+  color: #000000;
   font-weight: 1000;
   font-size: 8px;
 }
@@ -141,7 +141,7 @@ header {
 }
 
 .head-maintext {
-  color: #fe8d6f;
+  color: #000000;
   font-weight: 1000;
   font-size: 8px;
 }
@@ -152,13 +152,13 @@ header {
 }
 
 .subhead-maintext {
-  color: #fe8d6f;
+  color: #000000;
   font-weight: 1000;
   font-size: 7px;
 }
 
 .sub-maintext {
-  color: #f886a8;
+  color: #000000;
   font-weight: 1000;
   font-size: 6px;
 }
@@ -203,6 +203,22 @@ header {
   align-items: center;
 }
 
+.btn-ios {
+  background-image: linear-gradient(
+    to right,
+    #000000 0%,
+    #000000 31%,
+    #000000 90%
+  );
+
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 7px 15px;
+  cursor: pointer;
+  font-size: 6px;
+  align-items: center;
+}
 @media (min-width: 550px) {
   .btn {
     padding: 12px 30px;
@@ -212,6 +228,14 @@ header {
   }
 }
 
+@media (min-width: 550px) {
+  .btn-ios {
+    padding: 12px 30px;
+    font-size: 23px;
+    font-weight: 700;
+    align-items: center;
+  }
+}
 /* Darker background on mouse-over */
 .btn:hover {
   background-position: right center;
@@ -339,7 +363,7 @@ header {
   font-size: 15px;
   text-align: center;
   margin-top: 5%;
-  color: #fe8d6f;
+  color: #000000;
 }
 
 @media (min-width: 550px) {
@@ -357,7 +381,7 @@ header {
   font-size: 10px;
   margin-top: 1%;
   text-align: center;
-  color: #fe8d6f;
+  color: #000000;
 }
 
 @media (min-width: 550px) {
@@ -443,7 +467,7 @@ header {
 }
 
 .box-text {
-  color: #f886a8;
+  color: #000000;
   font-weight: 500;
   font-size: 8px;
   margin-top: 3%;
@@ -452,7 +476,7 @@ header {
 }
 
 .feat-icon {
-  color: #fe8d6f;
+  color: #000000;
 }
 
 @media (min-width: 550px) {
@@ -543,7 +567,7 @@ header {
 }
 
 .box-text-2 {
-  color: #fe8d6f;
+  color: #000000;
   font-weight: 500;
   text-align: left;
   font-size: 10px;
@@ -567,7 +591,7 @@ header {
   text-align: left;
   font-family: "Prompt", sans-serif;
   font-size: 12px;
-  color: #fe8d6f;
+  color: #000000;
 }
 
 @media (min-width: 550px) {
@@ -583,7 +607,7 @@ header {
   font-family: "Prompt", sans-serif;
   font-size: 15px;
   text-align: center;
-  color: #fe8d6f;
+  color: #000000;
 }
 
 @media (min-width: 550px) {
@@ -644,14 +668,14 @@ header {
 }
 
 .featurees a {
-  color: #fe8d6f;
+  color: #000000;
   font-weight: 500;
 }
 
 .featurees h4 {
   text-align: center;
   font-weight: 600;
-  color: #fe8d6f;
+  color: #000000;
   letter-spacing: 1px;
   justify-content: center;
   font-size: 16px;
@@ -661,7 +685,7 @@ header {
 @media (min-width: 550px) {
   .featurees h4 {
     font-weight: 600;
-    color: #fe8d6f;
+    color: #000000;
     letter-spacing: 1px;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -676,7 +700,7 @@ header {
 @media (min-width: 550px) {
   .featurees-text {
     font-weight: 600;
-    color: #fe8d6f;
+    color: #000000;
     letter-spacing: 1px;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -700,7 +724,7 @@ header {
 
 .footer-bottom {
   margin-top: 8%;
-  color: #cd48ff;
+  color: #000000;
   font-family: "Prompt", sans-serif;
   text-align: center;
   padding: 20px 20px;
@@ -721,7 +745,7 @@ header {
 .footer-site-info {
   font-size: 8px;
   font-family: "Prompt", sans-serif;
-  color: #fe8d6f;
+  color: #000000;
   text-align: center;
 }
 
@@ -740,7 +764,7 @@ a {
   font-family: "Prompt", sans-serif;
   text-align: center;
   font-weight: 700;
-  color: #fe8d6f;
+  color: #000000;
   font-size: 15px;
 }
 
@@ -761,7 +785,7 @@ table {
   font-weight: 500;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   width: 90%;
-  color: #631b7e;
+  color: #000000;
   table-layout: fixed;
   margin-top: 1%;
   margin-left: 5%;
@@ -800,14 +824,14 @@ th {
   padding: 15px 10px;
   font-weight: 500;
   font-size: 10px;
-  color: #f886a8;
+  color: #000000;
   text-transform: uppercase;
 }
 td {
   padding: 10px;
   vertical-align: middle;
   font-size: 8px;
-  color: #f886a8;
+  color: #000000;
   border-bottom: solid 1px rgba(255, 255, 255, 0.1);
   cursor: pointer;
 }
@@ -820,7 +844,7 @@ td {
 }
 
 .btn-5 {
-  background-color: #fe8d6f;
+  background-color: #000000;
   border: none;
   border-radius: 50px;
   color: white;
@@ -840,7 +864,7 @@ td {
 
 /* Darker background on mouse-over */
 .btn-5:hover {
-  background-color: rgb(253, 159, 83);
+  background-color: #2a3158;
 }
 
 .btn-5-dis {
