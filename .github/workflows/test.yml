@@ -28,7 +28,6 @@ jobs:
         uses: pavi2410/html-preview-action@v2
         with:
           html_file: "index.html"
-
       - uses: actions/checkout@v2
       - name: Bump version and push tag
         id: tag_version
