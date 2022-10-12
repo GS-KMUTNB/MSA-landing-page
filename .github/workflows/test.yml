@@ -23,16 +23,13 @@ jobs:
     needs: test
     if: startsWith(github.ref, 'refs/tags/') || github.ref == 'refs/heads/main'
     steps:
-      - name: HTML Preview
-        id: html_preview
-        uses: pavi2410/html-preview-action@v2
-        with:
-          html_file: "index.html"
-      - uses: actions/checkout@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_MSA_APPLICATION }}"
+          channelId: live
           projectId: msa-application
       - name: Bump version and push tag
         id: tag_version
